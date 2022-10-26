@@ -1,5 +1,5 @@
 # azu
 Azu bot website
 
-.gitignore
+#.gitignore
   .gitattributes
