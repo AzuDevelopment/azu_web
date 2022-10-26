@@ -1,0 +1,41 @@
+/* Style the top navigation bar */
+.topnav {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  overflow: hidden;
+  background-color: #625B9E;
+  border-radius: 25px;
+  margin-top: 20px;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #FEF5D8;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 25px;
+}
+
+/* Change color on hover */
+/*.topnav a:hover {
+  background-color: #40416F;
+  color: #FEF5D8;
+  border-radius: 20px solid #40416F;
+}
+*/
+
+.topnav a:hover {
+background-color: #40416F;
+border: none;
+color: #FEF5D8;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+margin: 4px 4px;
+cursor: pointer;
+border-radius: 25px;
+}
