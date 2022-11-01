@@ -19,6 +19,17 @@ body {
   clear: both;
 }
 
+.center {
+  width: 20%;
+  min-width: 125px;
+  padding: 0;
+  text-align: center;
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
+}
+
+
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn {   
