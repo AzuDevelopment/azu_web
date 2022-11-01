@@ -11,14 +11,13 @@
 /* Style the topnav links */
 .topnav a {
   float: left;
-  color: #FEF5D8;
+  color: #fff1c4;
   text-align: center;
   text-decoration: none;
-  padding: 14px 16px;
-  border-radius: 25px;
+  padding: 14px;
 }
 
 .topnav a:hover {
 background-color: #40416F;
-
+border-radius: 25px;
 }

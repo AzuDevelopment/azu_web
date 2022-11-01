@@ -12,6 +12,11 @@
     padding-left: 20px;
   }
 
+ /* Middle column*/
+ .middlecolumn {
+    float: left;
+    width: 100%;
+ }
 /* Add a card effect for articles */
 .card {
     background-color: #625B9E;
@@ -19,4 +24,3 @@
     margin-top: 20px;
     border-radius: 25px;
   }
-    

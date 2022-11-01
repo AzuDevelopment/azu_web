@@ -6,10 +6,12 @@ body {
   background-image: url("../artwork/AzuBanner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: #40416F;
+  font-family: FF Uberhand;
 
-  font-family: 'Catamaran', sans-serif;
+  /* font-family: 'Catamaran', sans-serif; */
   padding: 10px;
-  color: #FFF6D9;
+  color: #fff1c4;
 }
 
 /* Clear floats after the columns */
@@ -22,11 +24,6 @@ body {
 .center {
   width: 20%;
   min-width: 125px;
-  padding: 0;
-  text-align: center;
-  display: inline-block;
-  flex-direction: column;
-  align-items: center;
 }
 
 
