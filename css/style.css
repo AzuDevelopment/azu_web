@@ -3,9 +3,12 @@
 }
 
 body {
+  background-image: url("../artwork/AzuBanner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
   font-family: 'Catamaran', sans-serif;
   padding: 10px;
-  background: #40416F;
   color: #FFF6D9;
 }
 
