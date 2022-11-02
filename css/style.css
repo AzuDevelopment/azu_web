@@ -8,8 +8,10 @@ body {
   background-repeat: no-repeat;
   background-color: #40416F;
   font-family: Pro-Medium;
-  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   padding: 10px;
+  min-height: 100vh;
   color: #fff1c4;
 }
 

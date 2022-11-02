@@ -1,11 +1,10 @@
 /* Footer */
 .footer {
-    padding: 20px;
-    text-align: center;
     background: #625B9E;
+    text-align: center;
     margin-top: auto;
-    margin-bottom:20px;
     border-radius: 25px;
+    padding: 20px;
   }
 
 .footer p {
