@@ -21,3 +21,9 @@
 background-color: #40416F;
 border-radius: 25px;
 }
+
+.center {
+  width: 20%;
+  min-width: 125px;
+  font-family: Pro-Extra-Bold;
+}

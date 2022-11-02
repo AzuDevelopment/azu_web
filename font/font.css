@@ -1,9 +1,129 @@
 @font-face {
-    font-family: 'FF Uberhand';
+  font-family: 'Text-Pro';
+  src: local('FF Uberhand Text Pro'), local('FF-Uberhand-Text-Pro'),
+      url('UberhandTextPro.woff2') format('woff2'),
+      url('UberhandTextPro.woff') format('woff'),
+      url('UberhandTextPro.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pro-Book';
+  src: local('FF Uberhand Pro Book'), local('FF-Uberhand-Pro-Book'),
+      url('UberhandPro-Book.woff2') format('woff2'),
+      url('UberhandPro-Book.woff') format('woff'),
+      url('UberhandPro-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pro-Thin';
+  src: local('FF Uberhand Pro Thin'), local('FF-Uberhand-Pro-Thin'),
+      url('UberhandPro-Thin.woff2') format('woff2'),
+      url('UberhandPro-Thin.woff') format('woff'),
+      url('UberhandPro-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pro-Hairline';
+  src: local('FF Uberhand Pro Hairline'), local('FF-Uberhand-Pro-Hairline'),
+      url('fonts/UberhandPro-Hairline.woff2') format('woff2'),
+      url('fonts/UberhandPro-Hairline.woff') format('woff'),
+      url('fonts/UberhandPro-Hairline.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pro-Extra-light';
+  src: local('FF Uberhand Pro Extra light'), local('FF-Uberhand-Pro-Extra-light'),
+      url('fonts/UberhandPro-Extlight.woff2') format('woff2'),
+      url('fonts/UberhandPro-Extlight.woff') format('woff'),
+      url('fonts/UberhandPro-Extlight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pro-Ultra-light';
+    src: local('FF Uberhand Pro Ultra light'), local('FF-Uberhand-Pro-Ultra-light'),
+        url('fonts/UberhandPro-Ultralight.woff2') format('woff2'),
+        url('fonts/UberhandPro-Ultralight.woff') format('woff'),
+        url('fonts/UberhandPro-Ultralight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Pro-Light';
     src: local('FF Uberhand Pro Light'), local('FF-Uberhand-Pro-Light'),
-        url('UberhandPro-Light.woff2') format('woff2'),
-        url('UberhandPro-Light.woff') format('woff'),
-        url('UberhandPro-Light.ttf') format('truetype');
+        url('fonts/UberhandPro-Light.woff2') format('woff2'),
+        url('fonts/UberhandPro-Light.woff') format('woff'),
+        url('fonts/UberhandPro-Light.ttf') format('truetype');
     font-weight: 300;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Pro-Regular';
+    src: local('FF Uberhand Pro Regular'), local('FF-Uberhand-Pro-Regular'),
+        url('fonts/UberhandPro.woff2') format('woff2'),
+        url('fonts/UberhandPro.woff') format('woff'),
+        url('fonts/UberhandPro.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Pro-Medium';
+    src: local('FF Uberhand Pro Medium'), local('FF-Uberhand-Pro-Medium'),
+        url('fonts/UberhandPro-Medium.woff2') format('woff2'),
+        url('fonts/UberhandPro-Medium.woff') format('woff'),
+        url('fonts/UberhandPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'Pro-Bold';
+    src: local('FF Uberhand Pro Bold'), local('FF-Uberhand-Pro-Bold'),
+        url('fonts/UberhandPro-Bold.woff2') format('woff2'),
+        url('fonts/UberhandPro-Bold.woff') format('woff'),
+        url('fonts/UberhandPro-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'Text-Pro-Bold';
+    src: local('FF Uberhand Text Pro Bold'), local('FF-Uberhand-Text-Pro-Bold'),
+        url('fonts/UberhandTextPro-Bold.woff2') format('woff2'),
+        url('fonts/UberhandTextPro-Bold.woff') format('woff'),
+        url('fonts/UberhandTextPro-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Pro-Extra-bold';
+    src: local('FF Uberhand Pro Extra bold'), local('FF-Uberhand-Pro-Extra-bold'),
+        url('fonts/UberhandPro-Extrabold.woff2') format('woff2'),
+        url('fonts/UberhandPro-Extrabold.woff') format('woff'),
+        url('fonts/UberhandPro-Extrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Pro-Black';
+    src: local('FF Uberhand Pro Black'), local('FF-Uberhand-Pro-Black'),
+        url('fonts/UberhandPro-Black.woff2') format('woff2'),
+        url('fonts/UberhandPro-Black.woff') format('woff'),
+        url('fonts/UberhandPro-Black.ttf') format('truetype');
+    font-weight: 900;
     font-style: normal;
   }
